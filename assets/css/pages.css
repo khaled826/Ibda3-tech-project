@@ -1,0 +1,323 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Cairo', sans-serif;
+}
+
+/* Starting navbar */
+.navbar-collapse a img:first-child {
+    height: 70px;
+}
+
+.navbar-collapse div:first-of-type .nav-item {
+    text-align: left;
+}
+
+.navbar-light .navbar-toggler {
+    border: none;
+}
+
+.navbar-light .navbar-toggler:focus {
+    outline: none;
+}
+
+.navbar-light button.navbar-toggler span.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(145, 207, 239, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")
+}
+/* Ending navbar */
+
+/*Starting our whole works*/
+.our-whole-works .my-background {
+    background: url(../imgs/bg30-Ar1web.gif) repeat bottom center;
+}
+
+.my-standline {
+    height: 70px;
+    border-right: 7px solid #3aade6;
+}
+
+.our-whole-works .card {
+    border-radius: 10%;
+    box-shadow: 15px 15px 18px #a5a5a5;
+}
+
+.our-whole-works .card img {
+        border-radius: 10%;
+}
+
+.pagination-lg .page-link {
+    color: #1f81ff;
+    font-size: 1.75rem;
+    font-weight: 650;
+}
+
+.page-link:focus {
+    box-shadow: none;
+    color: #FFF;
+    background-color: #007bff;
+}
+/*Ending our whole works*/
+
+/*Starting our whole articles*/
+.articles .my-background {
+    background: url(../imgs/articles.jpg) no-repeat;
+    background-size: contain;
+}
+
+.articles .card {
+    border-radius: 25px;
+    box-shadow: 8px 8px 12px #c0c0c0, -3px -3px 8px #c0c0c0;
+    margin: 30px
+}
+
+.articles .card img {
+    border-radius: 25px;
+}
+
+.articles .card p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #444f5cc4;
+}
+
+.articles .row .card a {
+    height: 45px;
+    width: 140px;
+    font-size: 28px;
+    
+    padding-bottom: 3rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    background-color: #233142;
+    border-color: #233142;
+    color: #dfdcd5;
+}
+
+.articles .read-now {
+    display: flex;
+    justify-content: space-between;
+}
+
+.articles .card span {
+    display: inline-block;
+    position: relative;
+    bottom: -29%;
+    left: 10%;
+    font-size: 22px;
+    color: #a2a4a6;
+}
+
+.articles .svg-inline--fa {
+    height: 3em;
+    position: absolute;
+    bottom: 2%;
+}
+
+.pagination-lg .page-link {
+    color: #1f81ff;
+    font-size: 1.75rem;
+    font-weight: 650;
+}
+
+.page-link:focus {
+    box-shadow: none;
+    color: #FFF;
+    background-color: #007bff;
+}
+/*Ending our whole articles*/
+
+/*Starting one app*/
+.one-app-intro img {
+    width: 460px;
+}
+/*Ending one app*/
+
+/*Starting project details*/
+.project-details .my-background {
+    background: url(../imgs/details-bg.png);
+}
+
+.project-details .my-background p {
+    color: #fdffff;
+    line-height: 40px;
+    font-size: 22px;
+}
+/*Ending project details*/
+
+/*Starting khodlak lafa*/
+
+/*card carousel*/
+.card-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .card-carousel .my-card {
+    height: 20rem;
+    width: 12rem;
+    position: relative;
+    z-index: 1;
+    -webkit-transform: scale(0.6) translateY(-2rem);
+    transform: scale(0.6) translateY(-2rem);
+    opacity: 0;
+    cursor: pointer;
+    pointer-events: none;
+    
+    transition: 1s;
+  }
+  
+  .card-carousel .my-card:after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    border-radius: 100%;
+    background-color: rgba(0,0,0,0.3);
+    bottom: -5rem;
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+  }
+  
+  .card-carousel .my-card.active {
+    z-index: 3;
+    -webkit-transform: scale(1) translateY(0) translateX(0);
+    transform: scale(1) translateY(0) translateX(0);
+    opacity: 1;
+    pointer-events: auto;
+    transition: 1s;
+  }
+  
+  .card-carousel .my-card.prev, .card-carousel .my-card.next {
+    z-index: 2;
+    -webkit-transform: scale(0.8) translateY(-1rem) translateX(0);
+    transform: scale(0.8) translateY(-1rem) translateX(0);
+    opacity: 0.6;
+    pointer-events: auto;
+    transition: 1s;
+  }
+
+  /*my slides*/
+  .card-carousel .my-card:nth-child(0):before {
+    content: '0';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 3rem;
+    font-weight: 300;
+    color: #fff;
+}
+  .card-carousel .my-card img {
+    width: 293px;
+    position: relative;
+    bottom: 35%;
+    left: 27%;
+  }
+  
+  .card-carousel .my-card:nth-child(1):before {
+    content: '1';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 3rem;
+    font-weight: 300;
+    color: #fff;
+  }
+  
+  .card-carousel .my-card:nth-child(2):before {
+    content: '2';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 3rem;
+    font-weight: 300;
+    color: #fff;
+  }
+  
+  .card-carousel .my-card:nth-child(3):before {
+    content: '3';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 3rem;
+    font-weight: 300;
+    color: #fff;
+  }
+  
+/*Ending khodlak lafa*/
+
+/*Starting microsoft article*/
+.microsoft-article .my-background {
+    background: url(../imgs/bg30-Ar1web.gif);
+}
+
+.microsoft-article .my-standline {
+    height: 55px;
+    border-right: 5px solid #3aade6;
+}
+
+.microsoft-article h2 {
+    font-weight: 500;
+}
+
+.microsoft-article .card {
+    max-width: 900px;
+    border-radius: 25px;
+    box-shadow: 8px 8px 12px #c0c0c0, -3px -3px 8px #c0c0c0;
+}
+
+.microsoft-article img {
+    width: 60%;
+    margin: 40px auto;
+    border-radius: 25px;
+}
+
+.microsoft-article p{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 300%;
+    color: #3f4b58;
+    word-spacing: 3px;
+}
+/*Ending microsoft article*/
+
+/*Starting footer*/
+.footer .my-background-4 {
+    background: url(../imgs/footer.jpg) bottom center;
+    background-size: cover
+}
+.footer .footer-img-edit {
+    width: 350px;
+    height: 520px
+}
+.footer .footer-img-edit img {
+    position: absolute;
+    top: 12%; right: 15%;
+}
+.footer p {
+    color: #FFF;
+    font-size: 22px;
+}
+.footer .footer-social-media {
+    position: absolute;
+    top: 22%;
+    right: 2%;
+}
+.footer .footer-social-media a {
+    color: #FFF;
+}
+/*Ending footer*/
