@@ -205,7 +205,7 @@ body {
 
   /*my slides*/
   .card-carousel .my-card:nth-child(0):before {
-    content: '0';
+    content: '';
     position: absolute;
     top: 50%;
     left: 50%;
@@ -215,15 +215,10 @@ body {
     font-weight: 300;
     color: #fff;
 }
-  .card-carousel .my-card img {
-    width: 293px;
-    position: relative;
-    bottom: 35%;
-    left: 27%;
-  }
+  
   
   .card-carousel .my-card:nth-child(1):before {
-    content: '1';
+    content: '';
     position: absolute;
     top: 50%;
     left: 50%;
@@ -235,7 +230,7 @@ body {
   }
   
   .card-carousel .my-card:nth-child(2):before {
-    content: '2';
+    content: '';
     position: absolute;
     top: 50%;
     left: 50%;
@@ -247,7 +242,7 @@ body {
   }
   
   .card-carousel .my-card:nth-child(3):before {
-    content: '3';
+    content: '';
     position: absolute;
     top: 50%;
     left: 50%;
@@ -315,7 +310,7 @@ body {
 .footer .footer-social-media {
     position: absolute;
     top: 22%;
-    right: 2%;
+    right: 12%;
 }
 .footer .footer-social-media a {
     color: #FFF;

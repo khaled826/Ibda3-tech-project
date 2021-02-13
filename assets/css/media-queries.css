@@ -25,6 +25,9 @@
     .our-works .edit-img {
         height: 355px;
     }
+    .card-carousel .my-card {
+        width: 80px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) { 
@@ -53,6 +56,9 @@
         position: relative;
         right: 125%;
     }
+    .card-carousel .my-card {
+        width: 80px;
+    }
  }
 
 @media (min-width: 768px) and (max-width: 991.98px) { 
@@ -77,6 +83,9 @@
     .clients img {
         position: relative;
         right: 150%;
+    }
+    .card-carousel .my-card {
+        width: 90px;
     }
 }
      
@@ -110,6 +119,9 @@
 
     .one-app-intro img {
         width: 800px;
+    }
+    .card-carousel .my-card {
+        width: 120px;
     }
  }
 
