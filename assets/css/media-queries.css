@@ -14,19 +14,21 @@
         width: 230px;
         font-size: 23px;
     }
-    /*.card-carousel .my-card {
-        width: 80px;
-    }*/
+
+    .microsoft-article p {
+        line-height: normal;
+        font-size: 18px;
+    }
+
+    .microsoft-article h2 {
+        font-size: 20px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) { 
     .slogan .col-md-7 h1 {
         font-size: 2.5rem;
     }
-    
-    /*.card-carousel .my-card {
-        width: 80px;
-    }*/
  }
 
 @media (min-width: 768px) and (max-width: 991.98px) { 
