@@ -1,162 +1,58 @@
 /********Media queries********/
 @media (max-width: 575.98px) { 
-    .slogan .col-7 {
-        background-size:240px;
-        background-size: contain;
-    }
-    .slogan .col-7 h1 {
-        font-family: 'Cairo', sans-serif;
-        font-weight: 400;
-        font-size: 20px;
-        margin-top: 30px;
-    }
-    .navbar-collapse a img:first-child {
+    .navbar-collapse a img {
         height: 60px;
+    }
+    .slogan .col-md-7 h1 {
+        font-size: 2.5rem;
     }
     .about-us .lead {
         font-size: 20px;
-        text-align: center;
-        line-height: 180%;
+        margin-right: 5px;
     }
-    .footer .my-background-4 {
-        background: url(../imgs/footer.jpg) bottom center;
-        background-size: 100% 100%
+    .our-works .btn {
+        width: 230px;
+        font-size: 23px;
     }
-    .our-works .edit-img {
-        height: 355px;
-    }
-    .card-carousel .my-card {
+    /*.card-carousel .my-card {
         width: 80px;
-    }
+    }*/
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) { 
-    .slogan .col-7 {
-        background-size:300px;
-        background-size: contain;
+    .slogan .col-md-7 h1 {
+        font-size: 2.5rem;
     }
-    .slogan .col-7 h1 {
-        font-family: 'Cairo', sans-serif;
-        font-weight: 400;
-        font-size: 25px;
-        margin-top: 50px;
-    }
-    .navbar-collapse a img:first-child {
-        height: 60px;
-    }
-    .about-us .lead {
-        font-size: 30px;
-        text-align: center;
-        line-height: 140%;
-    }
-    .our-works .edit-img {
-        height: 395px;
-    }
-    .clients img {
-        position: relative;
-        right: 125%;
-    }
-    .card-carousel .my-card {
+    
+    /*.card-carousel .my-card {
         width: 80px;
-    }
+    }*/
  }
 
 @media (min-width: 768px) and (max-width: 991.98px) { 
-    .slogan .col-7 {
-        background-size:350px;
-        background-size: contain;
-    }
-    .slogan .col-7 h1 {
-        font-family: 'Cairo', sans-serif;
-        font-weight: 400;
-        font-size: 30px;
-        margin-top: 65px;
-    }
-    .about-us .lead {
-        font-size: 20px;
-        text-align: right;
-        line-height: 120%;
-    }
-    .our-works .edit-img {
-        height: 205px;
-    }
-    .clients img {
-        position: relative;
-        right: 150%;
-    }
-    .card-carousel .my-card {
+    
+    /*.card-carousel .my-card {
         width: 90px;
-    }
+    }*/
 }
      
 @media (min-width: 992px) and (max-width: 1199.98px) { 
-    .slogan .col-7 {
-        background-size:400px;
-        background-size: contain;
-    }
-    .slogan .col-7 h1 {
-        font-family: 'Cairo', sans-serif;
-        font-weight: 400;
-        font-size: 33px;
-        margin-top: 100px;
-    }
-    .about-us .lead {
-        font-size: 25px;
-        text-align: right;
-        line-height: 140%;
-    }
-    .our-features .details {
-        position: relative;
-        right: 28%;
-    }
-    .our-works .edit-img {
-        height: 350px;
-    }
-    .clients img {
-        position: relative;
-        right: 125%;
-    }
-
     .one-app-intro img {
         width: 800px;
     }
-    .card-carousel .my-card {
+    /*.card-carousel .my-card {
         width: 120px;
-    }
+    }*/
  }
 
  @media (min-width: 1200px) and (max-width: 1289.98px) {
-    .slogan .col-7 h1 {
-        font-family: 'Cairo', sans-serif;
-        font-weight: 400;
-        font-size: 3rem;
-        margin-top: 100px;
-    }
-    .about-us .lead {
-        font-size: 30px;
-        text-align: right;
-        line-height: 150%;
-    }
-    .our-works .edit-img {
-        height: 272px;
-    }
-
-    .one-app-intro img {
+    /*.one-app-intro img {
         width: 800px;
-    }
+    }*/
  }
 
  @media (min-width: 1290px) {
-    .about-us .lead {
-        font-size: 35px;
-        text-align: right;
-        line-height: 168%;
-    }
-    .our-works .edit-img {
-        height: 272px;
-    }
-
-    .one-app-intro img {
+    /*.one-app-intro img {
         width: 800px;
-    }
+    }*/
  }

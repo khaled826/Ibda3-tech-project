@@ -1,34 +1,37 @@
-$(document).ready(function(){
+/*console $*/
+$(document).ready(function () {
+    "use strict";
     $('.features-carousel').owlCarousel({
         rtl: true,
-        loop:true,
-        margin:10,
-        responsiveClass:true,
-        responsive:{
-            0:{
-                items:1,
-                nav:true,
-                loop:true
+        loop: true,
+        margin: 10,
+        responsiveClass: true,
+        responsive: {
+            0: {
+                items: 1,
+                nav: true,
+                loop: true
             },
-            992:{
-                items:2,
-                nav:true,
-                loop:true
+            992: {
+                items: 2,
+                nav: true,
+                loop: true
             },
-            1200:{
-                items:3,
-                nav:true,
-                loop:true
+            1200: {
+                items: 3,
+                nav: true,
+                loop: true
             }
         }
     });
 
-  });
+});
 
-  $(document).ready(function() {
+$(document).ready(function () {
+    "use strict";
     $('.clients-carousel').owlCarousel({
         rtl: true,
-        loop:true,
+        loop: true,
         margin:10,
         responsiveClass:true,
         responsive:{
@@ -49,7 +52,7 @@ $(document).ready(function(){
             }
         }
     });
-  })
+})
 
   // responsive smooth card carousel
 

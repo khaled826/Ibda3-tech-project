@@ -20,7 +20,7 @@
 <body>
     <!--Starting navbar-->
     <nav class="navbar navbar-collapse navbar-light bg-light">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.html">
           <img src="assets/imgs/logo2.png" alt="إبداع تك" title="إبداع تك">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,13 +30,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="index.html">الرئيسية<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="our-works.html">أعمالنا</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              <a class="nav-link" href="articles.html">مقالات</a>
             </li>
           </ul>
         </div>
@@ -47,11 +47,11 @@
     <section class="slogan my-1">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-5">
+          <div class="col-md-5">
             <img src="assets/imgs/header.jpg">
           </div>
-          <div class="col-7">
-            <h1 class="display-3">ابداع تك..شريكك التقني الأمثل لبدأ مشروعك الآن</h1>
+          <div class="col-md-7">
+            <h1>ابداع تك..شريكك التقني الأمثل لبدأ مشروعك الآن</h1>
           </div>
         </div>
       </div>
@@ -59,16 +59,17 @@
     <!--Ending slogan-->
 
     <!--Starting about us-->
-    <section class="about-us text-center my-4">
-      <h1 class="mt-8">من نحن؟</h1>
-      <div class="container-fluid">
+    <section class="about-us text-center my-5">
+      <div class="container">
+      <h2 class="mt-5">من نحن؟</h2>
+      
         <div class="my-underline my-4"></div>
         <div class="row">
           <div class="col-md-5">
-            <img src="assets/imgs/who-are-we.png" class="w-100 mx-lg-1 mx-md-3">
+            <img src="assets/imgs/who-are-we.png" class="w-100">
           </div>
           <div class="col-md-7">
-            <p class="lead">ابداع تك هي شركة برمجيات مصريةبدأت عملها في عام2012، متخصصون في برمجة تطبيقات الهواتف (اندرويد و ios) و تصميم و تطوير المواقع الالكترونية و برامج المبيعات و البرامج الادارية. راحة و إبهار عملائنا هو ما يهمنا، نحن نعمل على أن يكون عميلنا عضو بمجتمعنا و نزوده بكل ما يحتاجه ليصل الى النجاح الذي يتمناه و أكثر. نؤمن بقوة الشباب، و ندعم افكارهم و بناء و نجاح مشاريعهم بكل ما نستطيع. هكذا بدأ الإبداع و سيستمر إن شاء الله</p>
+            <p class="lead text-left">ابداع تك هي شركة برمجيات مصرية بدأت عملها في عام 2012، متخصصون في برمجة تطبيقات الهواتف (اندرويد و ios) و تصميم و تطوير المواقع الالكترونية و برامج المبيعات و البرامج الادارية. راحة و إبهار عملائنا هو ما يهمنا، نحن نعمل على أن يكون عميلنا عضو بمجتمعنا و نزوده بكل ما يحتاجه ليصل الى النجاح الذي يتمناه و أكثر. نؤمن بقوة الشباب، و ندعم افكارهم و بناء و نجاح مشاريعهم بكل ما نستطيع. هكذا بدأ الإبداع و سيستمر إن شاء الله</p>
           </div>
         </div>
       </div>
@@ -77,47 +78,51 @@
 
     <!--Starting our features-->
     <section class="our-features text-center my-5">
-      <h1>ما نقدمه لكم</h1>
+      <h2>ما نقدمه لكم</h2>
       <div class="my-underline my-5"></div>
         <div class="my-background">
           <div class="container">
-            <div class="row owl-carousel features-carousel">
+            <div class="owl-carousel features-carousel">
 
-                <div class="col-lg-4">
-                  <a href="#">
-                    <div class="details px-4 py-3">
+                <div>
+                    <div class="card details p-1">
+                      <a href="#" style="position: absolute;top: 0;left: 0;right: 0;bottom: 0;"></a>
                       <img src="assets/imgs/training.png">
-                      <h5>التدريب</h5>
-                      <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, odit quasi odio illum</p>
+                      <div class="card-body">
+                        <h5 class="card-title">التدريب</h5>
+                        <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, odit quasi odio illum</p>
+                      </div>
                     </div>
-                  </a>
                 </div>
-                <div class="col-lg-4">
-                  <a href="#">
-                    <div class="details px-4 py-3">
+                <div>
+                    <div class="card details p-1">
+                      <a href="#" style="position: absolute;top: 0;left: 0;right: 0;bottom: 0;"></a>
                       <img src="assets/imgs/social-markting.png">
-                      <h5>التسويق الالكتروني</h5>
-                      <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, odit quasi odio illum</p>
+                      <div class="card-body">
+                        <h5 class="card-title">التسويق الالكتروني</h5>
+                        <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, odit quasi odio illum</p>
+                      </div>
                     </div>
-                  </a>
                 </div>
-                <a href="#">
-                  <div class="col-lg-4">
-                    <div class="details px-4 py-3">
+                  <div>
+                    <div class="card details p-1">
+                      <a href="#" style="position: absolute;top: 0;left: 0;right: 0;bottom: 0;"></a>
                       <img src="assets/imgs/cashier.png">
-                      <h5>البرامج المحاسبية و الادارية</h5>
-                      <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, odit quasi odio illum</p>
+                      <div class="card-body">
+                        <h5 class="card-title">البرامج المحاسبية و الادارية</h5>
+                        <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, odit quasi odio illum</p>
+                      </div>
                     </div>
                   </div>
-                </a>
-                <div class="col-lg-4">
-                  <a href="#">
-                    <div class="details px-4 py-3">
+                <div>
+                    <div class="card details p-1">
+                      <a href="#" style="position: absolute;top: 0;left: 0;right: 0;bottom: 0;"></a>
                       <img src="assets/imgs/social-markting.png">
-                      <h5>التسويق الالكتروني</h5>
-                      <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, odit quasi odio illum</p>
+                      <div class="card-body">
+                        <h5>البرامج المحاسبية و الادارية</h5>
+                        <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, odit quasi odio illum</p>
+                      </div>
                     </div>
-                  </a>
                 </div>
 
             </div>
@@ -128,67 +133,67 @@
 
     <!--Starting our works-->
     <section class="our-works text-center my-5">
-      <h1 class="my-5">بعض أعمالنا</h1>
+      <h2 class="my-5">بعض أعمالنا</h2>
       <div class="my-underline mb-5 mt-5"></div>
       <div class="my-background-2">
         <div class="container">
           <div class="row py-5">
-            <div class="col-md-6 col-xl-4 mb-5 px-5 px-lg-3">
+            <div class="col-md-6 col-xl-4 mb-5 ">
               <div class="card mx-auto mx-lg-0">
-                <a href="#"></a>
+                <a href="one-app-page.html"></a>
                 <img src="assets/imgs/blood-bank.jpg" class="card-img-top" alt="blood bank">
                 <div class="card-body">
                   <h4 class="card-text">بنك الدم</h4>
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-xl-4 mb-5 px-5 px-lg-3">
+            <div class="col-md-6 col-xl-4 mb-5">
               <div class="card mx-auto mx-lg-0">
-                <a href="#"></a>
+                <a href="one-app-page.html"></a>
                 <img src="assets/imgs/mansor.jpg" class="card-img-top" alt="blood bank">
                 <div class="card-body">
                   <h4 class="card-text">تطبيق منصور للذبائح</h4>
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-xl-4 mb-5 px-5 px-lg-3">
+            <div class="col-md-6 col-xl-4 mb-5">
               <div class="card mx-auto mx-lg-0">
-                <a href="#"></a>
+                <a href="one-app-page.html"></a>
                 <img src="assets/imgs/elnesr-mockup.jpg" class="card-img-top" alt="blood bank">
                 <div class="card-body">
                   <h4 class="card-text">موقع النسر</h4>
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-xl-4 mb-5 px-5 px-lg-3">
+            <div class="col-md-6 col-xl-4 mb-5">
               <div class="card mx-auto mx-lg-0">
-                <a href="#"></a>
+                <a href="one-app-page.html"></a>
                 <img src="assets/imgs/smart.jpg" class="card-img-top" alt="blood bank">
                 <div class="card-body">
                   <h4 class="card-text">تطبيق اكتشفني</h4>
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-xl-4 mb-5 px-5 px-lg-3">
+            <div class="col-md-6 col-xl-4 mb-5">
               <div class="card mx-auto mx-lg-0">
-                <a href="#"></a>
+                <a href="one-app-page.html"></a>
                 <img src="assets/imgs/3dl.jpg" class="card-img-top" alt="blood bank">
                 <div class="card-body">
                   <h4 class="card-text">تطبيق سوشي</h4>
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-xl-4 mb-5 px-5 px-lg-3">
+            <div class="col-md-6 col-xl-4 mb-5">
               <div class="card mx-auto mx-lg-0">
-                <a href="#"></a>
-                <img src="assets/imgs/one app.jpg" class="card-img-top edit-img" alt="blood bank">
+                <a href="one-app-page.html"></a>
+                <img src="assets/imgs/one-preview.jpg" class="card-img-top" alt="blood bank">
                 <div class="card-body">
                   <h4 class="card-text">تطبيق وان</h4>
                 </div>
               </div>
             </div>
           </div>
-          <div class="btn">شاهد كل أعمالنا</div>
+          <a href="our-works.html" class="btn d-inline-block">شاهد كل اعمالنا</a>
         </div>
       </div>
     </section>
@@ -199,62 +204,62 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6 my-4">
-                <div class="card">
+                <div class="card m-md-3">
                   <img src="assets/imgs/web.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <p class="card-text lead text-center my-2">
+                    <p class="card-text lead text-center">
                       توقف دعم تطبيقات جهاز شركة MICROsoft <br>
                       لتتبع اللياقة البدنية MICROsoft Band</p>
-                      <div class="read-now mr-5 ml-2">
-                        <a href="#" class="btn">اقرأ الآن</a>
-                        <div><span>200</span><i class="fas fa-eye fa-2x"></i></div>
+                      <div class="read-now">
+                        <a href="#" class="btn my-1">اقرأ الآن</a>
+                        <div><span>200</span><i class="fas fa-eye mt-2 ml-1"></i></div>
                       </div>
                   </div>
                 </div>
           </div>
           <div class="col-lg-6 my-4">
-            <div class="card">
+            <div class="card m-md-3">
               <img src="assets/imgs/MICROsoft.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <p class="card-text lead text-center">
                   توقف دعم تطبيقات جهاز شركة MICROsoft <br>
                   لتتبع اللياقة البدنية MICROsoft Band</p>
-                  <div class="read-now mr-5 ml-2">
-                    <a href="#" class="btn">اقرأ الآن</a>
-                    <div><span>200</span><i class="fas fa-eye fa-2x"></i></div>
+                  <div class="read-now">
+                    <a href="#" class="btn my-1">اقرأ الآن</a>
+                    <div><span>200</span><i class="fas fa-eye mt-2 ml-1"></i></div>
                   </div>
               </div>
             </div>
           </div>
           <div class="col-lg-6 my-4">
-            <div class="card">
+            <div class="card m-md-3">
               <img src="assets/imgs/web.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <p class="card-text lead text-center">
                   توقف دعم تطبيقات جهاز شركة MICROsoft <br>
                   لتتبع اللياقة البدنية MICROsoft Band</p>
-                  <div class="read-now mr-5 ml-2">
-                    <a href="#" class="btn">اقرأ الآن</a>
-                    <div><span>200</span><i class="fas fa-eye fa-2x"></i></div>
+                  <div class="read-now">
+                    <a href="#" class="btn my-1">اقرأ الآن</a>
+                    <div><span>200</span><i class="fas fa-eye mt-2 ml-1"></i></div>
                   </div>
               </div>
             </div>
           </div>
           <div class="col-lg-6 my-4">
-            <div class="card">
+            <div class="card m-md-3">
               <img src="assets/imgs/MICROsoft.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <p class="card-text lead text-center">
                   توقف دعم تطبيقات جهاز شركة MICROsoft <br>
                   لتتبع اللياقة البدنية MICROsoft Band</p>
-                  <div class="read-now mr-5 ml-2">
-                    <a href="#" class="btn">اقرأ الآن</a>
-                    <div><span>200</span><i class="fas fa-eye fa-2x"></i></div>
+                  <div class="read-now">
+                    <a href="#" class="btn my-1">اقرأ الآن</a>
+                    <div><span>200</span><i class="fas fa-eye mt-2 ml-1"></i></div>
                   </div>
               </div>
             </div>
           </div>
-          <div class="btn mx-auto">المزيد</div>
+          <a href="articles.html" class="btn mx-auto mt-5">المزيد</a>
         </div>
         
       </div>
@@ -263,24 +268,24 @@
 
     <!--Starting our client-->
     <section class="clients text-center">
-      <h1 class="display-4 mb-5">عملاء نفتخر بهم</h1>
+      <h2 class="mb-5">عملاء نفتخر بهم</h2>
       <div class="my-underline my-4"></div>
       <div class="my-background3">
         <div class="container my-brands">
-          <div class="row owl-carousel clients-carousel">
-            <div class="col-sm-3">
+          <div class="owl-carousel clients-carousel">
+            <div>
               <img src="assets/imgs/smart.png" class="mx-auto">
             </div>
-            <div class="col-sm-3">
+            <div>
               <img src="assets/imgs/one.png" class="mx-auto">
             </div>
-            <div class="col-sm-3">
+            <div>
               <img src="assets/imgs/elnesr.png" class="mx-auto">
             </div>
-            <div class="col-sm-3">
+            <div>
               <img src="assets/imgs/dokan.png" class="mx-auto">
             </div>
-            <div class="col-sm-3">
+            <div>
               <img src="assets/imgs/smart.png" class="mx-auto">
             </div>
           </div>
@@ -291,13 +296,11 @@
 
     <!--Starting footer-->
     <footer class="footer">
-      <div class="my-background-4">
-        <div class="container-fluid">
+      
+        <div class="container">
           <div class="row">
             <div class="col-md-5">
-              <div class="footer-img-edit">
-                <img src="assets/imgs/footer-vec.jpg" height="350px">
-              </div>
+                <img src="assets/imgs/footer-vec.jpg" class="">
             </div>
             <div class="col-md-7">
               <div class="footer-social-media">
@@ -311,7 +314,7 @@
             </div>
           </div>
         </div>
-      </div>
+      
     </footer>
     <!--Ending footer-->
 

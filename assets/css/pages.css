@@ -35,6 +35,7 @@ body {
     background: url(../imgs/bg30-Ar1web.gif) repeat bottom center;
 }
 
+/*My global staandline*/
 .my-standline {
     height: 70px;
     border-right: 7px solid #3aade6;
@@ -49,10 +50,10 @@ body {
         border-radius: 10%;
 }
 
-.pagination-lg .page-link {
+.our-whole-works .pagination .page-link {
     color: #1f81ff;
-    font-size: 1.75rem;
-    font-weight: 650;
+    font-size: 22px;
+    font-weight: 600;
 }
 
 .page-link:focus {
@@ -71,7 +72,7 @@ body {
 .articles .card {
     border-radius: 25px;
     box-shadow: 8px 8px 12px #c0c0c0, -3px -3px 8px #c0c0c0;
-    margin: 30px
+    
 }
 
 .articles .card img {
@@ -79,23 +80,9 @@ body {
 }
 
 .articles .card p {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     color: #444f5cc4;
-}
-
-.articles .row .card a {
-    height: 45px;
-    width: 140px;
-    font-size: 28px;
-    
-    padding-bottom: 3rem;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-radius: 50px;
-    background-color: #233142;
-    border-color: #233142;
-    color: #dfdcd5;
 }
 
 .articles .read-now {
@@ -103,28 +90,46 @@ body {
     justify-content: space-between;
 }
 
+.articles .read-now a {
+    height: 25px;
+    width: 100px;
+    font-size: 20px;
+    
+    padding-bottom: 2.2rem;
+    /*margin-top: 10px;
+    margin-bottom: 10px;*/
+    border-radius: 50px;
+    background-color: #233142;
+    border-color: #233142;
+    color: #dfdcd5;
+}
+
+
+
 .articles .card span {
-    display: inline-block;
+    /*display: inline-block;
     position: relative;
     bottom: -29%;
-    left: 10%;
-    font-size: 22px;
+    left: 10%;*/
+    font-size: 20px;
     color: #a2a4a6;
 }
 
 .articles .svg-inline--fa {
-    height: 3em;
+    /*height: 3em;
     position: absolute;
-    bottom: 2%;
+    bottom: 2%;*/
+
+    font-size: 22px;
 }
 
-.pagination-lg .page-link {
+.articles .pagination-md .page-link {
     color: #1f81ff;
-    font-size: 1.75rem;
-    font-weight: 650;
+    font-size: 22px;
+    font-weight: 600;
 }
 
-.page-link:focus {
+.articles .page-link:focus {
     box-shadow: none;
     color: #FFF;
     background-color: #007bff;
@@ -133,7 +138,7 @@ body {
 
 /*Starting one app*/
 .one-app-intro img {
-    width: 460px;
+    width: 60%;
 }
 /*Ending one app*/
 
@@ -145,7 +150,7 @@ body {
 .project-details .my-background p {
     color: #fdffff;
     line-height: 40px;
-    font-size: 22px;
+    font-size: 20px;
 }
 /*Ending project details*/
 
@@ -171,6 +176,7 @@ body {
     pointer-events: none;
     
     transition: 1s;
+    max-width: 16%;
   }
   
   .card-carousel .my-card:after {
@@ -266,17 +272,17 @@ body {
 }
 
 .microsoft-article h2 {
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .microsoft-article .card {
-    max-width: 900px;
+    
     border-radius: 25px;
     box-shadow: 8px 8px 12px #c0c0c0, -3px -3px 8px #c0c0c0;
 }
 
 .microsoft-article img {
-    width: 60%;
+    width: 80%;
     margin: 40px auto;
     border-radius: 25px;
 }
@@ -291,26 +297,25 @@ body {
 /*Ending microsoft article*/
 
 /*Starting footer*/
-.footer .my-background-4 {
+.footer {
     background: url(../imgs/footer.jpg) bottom center;
-    background-size: cover
+    background-size: cover;
 }
-.footer .footer-img-edit {
-    width: 350px;
-    height: 520px
-}
-.footer .footer-img-edit img {
-    position: absolute;
-    top: 12%; right: 15%;
+.footer .col-md-5 img {
+    width: 50%;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 .footer p {
     color: #FFF;
     font-size: 22px;
 }
 .footer .footer-social-media {
-    position: absolute;
-    top: 22%;
-    right: 12%;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+.footer .footer-social-media img {
+    width: 50%;
 }
 .footer .footer-social-media a {
     color: #FFF;

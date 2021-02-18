@@ -20,7 +20,7 @@
 <body>
     <!--Starting navbar-->
     <nav class="navbar navbar-collapse navbar-light bg-light">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.html">
           <img src="assets/imgs/logo2.png" alt="إبداع تك" title="إبداع تك">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,14 +29,14 @@
       
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">الرئيسية</a>
+            </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="our-works.html">اعمالنا</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              <a class="nav-link" href="articles.html">مقالات</a>
             </li>
           </ul>
         </div>
@@ -46,7 +46,7 @@
     <!--Starting one app intro-->
     <section class="one-app-intro my-5">
         <div class="my-standline ml-5 mt-5 mb-2 d-inline-block">
-            <h1 class="display-5 ml-4">تطبيق وان</h1>
+            <h1 class="ml-4">تطبيق وان</h1>
         </div>
         <div class="container">
             <img src="assets/imgs/main.png" class="d-block mx-auto">
@@ -57,9 +57,9 @@
     <!--Starting project details-->
     <section class="project-details mt-3 mb-5">
         <div class="my-standline ml-5 my-5 d-inline-block">
-            <h1 class="display-5 ml-4">تفاصيل المشروع</h1>
+            <h1 class="ml-4">تفاصيل المشروع</h1>
         </div>
-        <div class="my-background">
+        <div class="my-background container-fluid">
             <div class="container">
                 
                     <p class="lead text-center py-5">لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت تصاميم مطبوعه ... بروشور او فلاير على سبيل المثال ... او نماذج مواقع انترنت ...
@@ -74,21 +74,21 @@
     <!--Starting khodlak lafa-->
     <section class="khodlak-lafa">
         <div class="my-standline ml-5 my-5 d-inline-block">
-            <h1 class="display-5 ml-4">خدلك لفة</h1>
+            <h1 class="ml-4">خدلك لفة</h1>
         </div>
 
         <div class="card-carousel my-5">
             <div class="my-card">
-                <img src="assets/imgs/slide-one.png" class="w-100">
+                <img src="assets/imgs/slide-one.png" style="max-width: 100%;">
             </div>
             <div class="my-card">
-              <img src="assets/imgs/Slider-two.png" class="w-100">
+              <img src="assets/imgs/Slider-two.png" style="max-width: 100%;">
             </div>
             <div class="my-card">
-              <img src="assets/imgs/slider-three.png" class="w-100">
+              <img src="assets/imgs/slider-three.png" style="max-width: 100%;">
             </div>
             <div class="my-card">
-              <img src="assets/imgs/Slider-four.png" class="w-100">
+              <img src="assets/imgs/Slider-four.png" style="max-width: 100%;">
             </div>
         </div>
     </section>
@@ -96,29 +96,27 @@
 
     <!--Starting footer-->
     <footer class="footer">
-        <div class="my-background-4">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-md-5">
-                <div class="footer-img-edit">
-                  <img src="assets/imgs/footer-vec.jpg" height="350px">
-                </div>
-              </div>
-              <div class="col-md-7">
-                <div class="footer-social-media">
-                  <img src="assets/imgs/footer-logo3.png">
-                  <p class="lead mt-5">المنصورة-حي الجامعة-تقسيم الزعفران</p>
-                  <a href="#" class="mx-3"><i class="fab fa-whatsapp fa-2x"></i></a>
-                  <a href="#" class="mr-3"><i class="fab fa-twitter fa-2x"></i></a>
-                  <a href="#" class="mr-3"><i class="fab fa-facebook-f fa-2x"></i></a>
-                  <a href="#" class="mr-3"><i class="fab fa-github fa-2x"></i></a>
-                </div>
-              </div>
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+              <img src="assets/imgs/footer-vec.jpg" class="">
+          </div>
+          <div class="col-md-7">
+            <div class="footer-social-media">
+              <img src="assets/imgs/footer-logo3.png">
+              <p class="lead mt-5">المنصورة-حي الجامعة-تقسيم الزعفران</p>
+              <a href="#" class="mx-3"><i class="fab fa-whatsapp fa-2x"></i></a>
+              <a href="#" class="mr-3"><i class="fab fa-twitter fa-2x"></i></a>
+              <a href="#" class="mr-3"><i class="fab fa-facebook-f fa-2x"></i></a>
+              <a href="#" class="mr-3"><i class="fab fa-github fa-2x"></i></a>
             </div>
           </div>
         </div>
-      </footer>
-      <!--Ending footer-->
+      </div>
+    
+  </footer>
+  <!--Ending footer-->
   
       <script src="assets/js/all.min.js"></script>
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
